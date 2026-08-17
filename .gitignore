@@ -1,0 +1,78 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+.vite/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/
+database/
+
+# Private media
+uploads/
+private/
+private-media/
+storage/
+media/
+originals/
+processed/
+optimized/
+thumbnails/
+posters/
+transcoded/
+
+# Logs
+*.log
+logs/
+
+# Sessions / tokens
+sessions/
+*.session
+*.token
+*.jwt
+
+# Certificates / keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+certs/
+certificates/
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / tests
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Deployment
+.vercel/
+.netlify/
+
+# Backups
+backup/
+backups/
+*.bak
+*.backup
+*.old
